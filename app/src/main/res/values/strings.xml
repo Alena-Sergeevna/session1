@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">TestWS</string>
+    <string name="logo_ic">Logo</string>
+    <string name="text_onboardin_z">ПРИВЕТ</string>
+    <string name="text_onboardin_p">Наслаждайся отборочными. Будь внимателен. Делай хорошо.</string>
+    <string name="button_onboard">Войти в аккаунт</string>
+    <string name="onboard_foot">Еще нет аккаунта? Зарегистрируйтесь</string>
+</resources>
