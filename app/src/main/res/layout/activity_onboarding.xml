@@ -62,21 +62,21 @@
             app:layout_constraintTop_toBottomOf="@+id/textView2" />
 
         <Button
-            android:id="@+id/button"
+            android:id="@+id/btn_alert"
             android:layout_width="321dp"
             android:layout_height="61dp"
             android:layout_marginStart="45dp"
             android:layout_marginTop="39dp"
             android:layout_marginEnd="45dp"
             android:fontFamily="@font/alegreya_bold"
+            android:onClick="addListenerOnButton"
             android:text="@string/button_onboard"
             android:textSize="20sp"
             app:backgroundTint="@color/button"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView3"
-            app:rippleColor="@color/button"
-            tools:ignore="MissingConstraints" />
+            app:rippleColor="@color/button" />
 
         <TextView
             android:id="@+id/textView4"
@@ -93,7 +93,7 @@
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/button"
+            app:layout_constraintTop_toBottomOf="@+id/btn_alert"
             tools:ignore="MissingConstraints" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
