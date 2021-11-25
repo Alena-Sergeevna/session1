@@ -3,7 +3,7 @@
     <string name="logo_ic">Logo</string>
     <string name="text_onboardin_z">ПРИВЕТ</string>
     <string name="text_onboardin_p">Наслаждайся отборочными. Будь внимателен. Делай хорошо.</string>
-    <string name="button_onboard">Войти в аккаунт</string>
+    <string name="btn_alert">Войти в аккаунт</string>
     <string name="onboard_foot">Еще нет аккаунта? Зарегистрируйтесь</string>
     <string name="title_activity_login">LoginActivity</string>
     <string name="prompt_email">Email</string>
@@ -14,4 +14,5 @@
     <string name="invalid_username">Not a valid username</string>
     <string name="invalid_password">Password must be >5 characters</string>
     <string name="login_failed">"Login failed"</string>
+
 </resources>
