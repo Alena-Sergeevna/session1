@@ -1,15 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.testws">
-
-    <application
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.testws" >
+<application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.TestWS">
-
+        android:theme="@style/Theme.TestWS" >
         <activity
             android:name=".Lounch_screen"
             android:exported="true">
@@ -21,7 +20,7 @@
         </activity>
         <activity
             android:name=".Onboarding"
-            android:exported="true">
+            android:exported="true" >
             <intent-filter>
                 <action android:name="com.tutorial.CLEARSCREEN" />
 
@@ -29,14 +28,17 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".ui.login.LoginActivity"
+            android:name=".LogActivity"
             android:exported="true"
-            android:label="@string/title_activity_login">
-            <intent-filter>
-                <action android:name="android.intent.action.login" />
-                <category android:name="android.intent.category.DEFAULT" />
-            </intent-filter>
-            </activity>
+            android:label="@string/title_activity_log"
+            android:theme="@style/Theme.TestWS.NoActionBar">
+        <intent-filter>
+            <action android:name="android.intent.action.log" />
+
+            <category android:name="android.intent.category.DEFAULT" />
+        </intent-filter>
+        </activity>
+
         <meta-data
             android:name="preloaded_fonts"
             android:resource="@array/preloaded_fonts" />

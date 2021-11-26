@@ -8,7 +8,6 @@ import android.widget.Button;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.example.testws.ui.login.LoginActivity;
 
 
 public class Onboarding extends AppCompatActivity {
@@ -22,7 +21,7 @@ public class Onboarding extends AppCompatActivity {
 
     }
     public void onBtnAlert(View v) {
-        Intent intent = new Intent(this, LoginActivity.class);
+        Intent intent = new Intent(this, LogActivity.class);
         startActivity(intent);
 
     }
